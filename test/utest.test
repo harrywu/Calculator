@@ -1,0 +1,4 @@
+<launch>
+  <node name="add_two_ints_server" pkg="Calculator" type="add_two_ints_server" />
+  <test test-name="mytestnode" pkg="Calculator" type="mytestnode" />
+</launch>
